@@ -9,3 +9,4 @@ Some things that may be included later:
 
 - `/fonts` - Manubot-approved or special purpose fonts.
 - `/themes` / `/plugins` - The theme and plugin files from `manubot-rootstock`, hosted here instead to make that repository less cluttered.
+- `style.scl` - Citation style
