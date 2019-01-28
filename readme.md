@@ -10,3 +10,5 @@ Some things that may be included later:
 - `/fonts` - Manubot-approved or special purpose fonts.
 - `/themes` / `/plugins` - The theme and plugin files from `manubot-rootstock`, hosted here instead to make that repository less cluttered.
 - `style.scl` - Citation style
+
+Icons in `/icons`, unless otherwise specified, are provided by [Font Awesome](https://fontawesome.com/license/free) via the [CC BY 4.0 License](https://creativecommons.org/licenses/by/4.0/).
