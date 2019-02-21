@@ -4,6 +4,7 @@ Some things that are included:
 
 - `/icons` - SVG icons for social media (eg Twitter), services (eg GitHub), and any other common brand identifiers.
 - `/images` - Generic images for testing manuscript themes and plugins.
+- `/brand` - the Manubot logo and other assets related to the branding/marketing of Manubot
 
 Some things that may be included later:
 
