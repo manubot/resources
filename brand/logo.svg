@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+	<path class="the_m" fill="none" stroke="#37474f" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="M384 640V384l128 176 128-176v256"/>
+	<path class="left_line" fill="none" stroke="#37474f" stroke-linecap="round" stroke-width="48" d="M176 512h-32"/>
+	<circle class="left_circle" cx="56" cy="512" r="32" fill="none" stroke="#37474f" stroke-width="32"/>
+	<path class="left_bracket" fill="none" stroke="#37474f" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="M304 256L176 512l128 256"/>
+	<path class="right_line" fill="none" stroke="#37474f" stroke-linecap="round" stroke-width="48" d="M848 512h32"/>
+	<circle class="right_circle" cx="968" cy="512" r="32" fill="none" stroke="#37474f" stroke-width="32"/>
+	<path class="right_bracket" fill="none" stroke="#37474f" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="M720 256l128 256-128 256"/>
+</svg>
