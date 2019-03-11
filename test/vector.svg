@@ -15,6 +15,6 @@
             fill: white;
         }
     </style>
-    <polygon points="26,86 11.2,40.4 50,12.2 88.8,40.4 74,86"/>
+    <polygon points="19.07,96.39 0,37.63 50,1.29 100.00,37.63 80.93,96.39 "/>
     <text x="50" y="50" dy="0.5em" text-anchor="middle">SVG Image</text>
 </svg>
