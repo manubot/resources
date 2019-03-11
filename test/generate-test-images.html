@@ -7,10 +7,15 @@
             justify-content: center;
             align-items: center;
             color: white;
-            font-size: 30px;
+            font-size: 32px;
             font-weight: 600;
             margin: 0.5in;
-            border-radius: 20px;
+            border-radius: 0.5in;
+        }
+        .square {
+            width: 4in;
+            height: 4in;
+            background: linear-gradient(45deg, #ED1C24 0%, #FCEE21 100%);
         }
         .wide {
             width: 10in;
@@ -22,22 +27,16 @@
             height: 6in;
             background: linear-gradient(45deg, #662D8C 0%, #ED1E79 100%);
         }
-        .square {
-            width: 4in;
-            height: 4in;
-            background: linear-gradient(45deg, #ED1C24 0%, #FCEE21 100%);
-        }
     </style>
     <body>
-        <!-- Conveniently convert this code to a transparent png: http://www.hiqpdf.com/demo/ConvertHtmlToImage.aspx -->
+        <div class="square">
+            Square Image
+        </div>
         <div class="wide">
             Wide Image
         </div>
         <div class="tall">
             Tall Image
-        </div>
-        <div class="square">
-            Square Image
         </div>
     </body>
 </html>

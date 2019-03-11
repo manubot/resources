@@ -1,0 +1,329 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Manubot Plugin Test Utility</title>
+        <style>
+            @import url("https://fonts.googleapis.com/css?family=Open+Sans");
+            * {
+                font-family: "Open Sans", "Helvetica", sans-serif;
+            }
+            body {
+                position: relative;
+                box-sizing: border-box;
+                width: 480px;
+                max-width: 100%;
+                line-height: 1.5;
+                margin: 0 auto;
+                padding: 10px;
+                text-align: center;
+            }
+            a {
+                color: #2196f3;
+            }
+            table {
+                width: 100%;
+                border-collapse: collapse;
+                table-layout: fixed;
+            }
+            td {
+                padding: 5px;
+            }
+            td:nth-child(1) {
+                width: 10%;
+            }
+            td:nth-child(2) {
+                width: 50%;
+            }
+            td:nth-child(3) {
+                width: 40%;
+            }
+            tr:hover {
+                background: #f0f0f0;
+                cursor: pointer;
+            }
+            input,
+            select {
+                width: 100%;
+            }
+            button {
+                display: block;
+                margin: auto;
+                width: 200px;
+                height: 50px;
+                border-radius: 5px;
+                background: #eeeeee;
+                color: #000000;
+                font-weight: bold;
+                border: none;
+            }
+            button:hover {
+                cursor: pointer;
+                opacity: 0.75;
+            }
+        </style>
+    </head>
+    <body>
+        <h3><a href="https://manubot.org/">Manubot</a> Plugin Test Utility</h3>
+        <table>
+            <tr>
+                <td>
+                    <input type="checkbox" id="tableScroll-enabled" checked />
+                </td>
+                <td>Table Scroll</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" id="anchors-enabled" checked /></td>
+                <td>Anchors</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>typesQuery</td>
+                <td>
+                    <input
+                        type="text"
+                        id="anchors-typesQuery"
+                        value="h1, h2, h3, figure, table"
+                    />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" id="accordion-enabled" checked />
+                </td>
+                <td>Accordion</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>startCollapsed</td>
+                <td>
+                    <select type="text" id="accordion-startCollapsed">
+                        <option>auto</option>
+                        <option>false</option>
+                        <option>true</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" id="tooltips-enabled" checked /></td>
+                <td>Tooltips</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>clickClose</td>
+                <td><input type="checkbox" id="tooltips-clickClose" /></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>keepHorizontal</td>
+                <td>
+                    <input
+                        type="checkbox"
+                        id="tooltips-keepHorizontal"
+                        checked
+                    />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" id="jumpToFirst-enabled" checked />
+                </td>
+                <td>Jump to First</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>citations</td>
+                <td>
+                    <input type="checkbox" id="jumpToFirst-citations" checked />
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>figures</td>
+                <td>
+                    <input type="checkbox" id="jumpToFirst-figures" checked />
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>tables</td>
+                <td>
+                    <input type="checkbox" id="jumpToFirst-tables" checked />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" id="refHighlight-enabled" checked />
+                </td>
+                <td>Ref Highlight</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>externalLinks</td>
+                <td>
+                    <input type="checkbox" id="refHighlight-externalLinks" />
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>clickUnhighlight</td>
+                <td>
+                    <input type="checkbox" id="refHighlight-clickUnhighlight" />
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>highlightUnique</td>
+                <td>
+                    <input
+                        type="checkbox"
+                        id="refHighlight-highlightUnique"
+                        checked
+                    />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input
+                        type="checkbox"
+                        id="tableOfContents-enabled"
+                        checked
+                    />
+                </td>
+                <td>Table of Contents</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>typesQuery</td>
+                <td>
+                    <input
+                        type="text"
+                        id="tableOfContents-typesQuery"
+                        value="h1, h2, h3"
+                    />
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>charLimit</td>
+                <td>
+                    <input
+                        type="text"
+                        id="tableOfContents-charLimit"
+                        value="50"
+                    />
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>bullets</td>
+                <td><input type="checkbox" id="tableOfContents-bullets" /></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>startOpen</td>
+                <td>
+                    <select type="text" id="tableOfContents-startOpen">
+                        <option>false</option>
+                        <option>true</option>
+                        <option>auto</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" id="lightbox-enabled" checked /></td>
+                <td>Lightbox</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>zoomSteps</td>
+                <td>
+                    <input
+                        type="text"
+                        id="lightbox-zoomSteps"
+                        value="0.1, 0.25, 0.333333, 0.5, 0.666666, 0.75, 1, 1.25, 1.5, 1.75, 2, 2.5, 3, 3.5, 4, 5, 6, 7, 8"
+                    />
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>defaultZoom</td>
+                <td>
+                    <select type="text" id="lightbox-defaultZoom">
+                        <option>shrink</option>
+                        <option>fit</option>
+                        <option>100</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+
+        <br />
+        Navigate to:
+        <input id="navigate_to" type="text" value="manuscript.html" />
+        <br />
+        <br />
+        <button onclick="go();">Go</button>
+
+        <script>
+            // navigate to manuscript html with url parameters
+            function go() {
+                window.location =
+                    document.getElementById("navigate_to").value + parameters();
+            }
+
+            // get url parameters from page controls
+            function parameters() {
+                let params = {};
+                let inputs = document.querySelectorAll("[id]");
+                for (let input of inputs) {
+                    let key = input.id;
+                    let value = input.value;
+                    if (input.type === "checkbox") value = input.checked;
+                    params[key] = value;
+                }
+
+                let urlparams = new URLSearchParams();
+                for (let key of Object.keys(params))
+                    urlparams.set(key, params[key]);
+
+                return "?" + urlparams.toString();
+            }
+
+            // let clicking on rows click on checkboxs and cycle through dropdowns
+            let rows = document.querySelectorAll("tr");
+            for (let row of rows) {
+                let checkboxes = row.querySelectorAll("input[type=checkbox]");
+                for (let checkbox of checkboxes) {
+                    checkbox.onclick = function(event) {
+                        event.stopPropagation();
+                    };
+                    row.onclick = function(event) {
+                        event.preventDefault();
+                        event.stopPropagation();
+                        checkbox.click();
+                    };
+                }
+                let selects = row.querySelectorAll("select");
+                for (let select of selects) {
+                    select.onclick = function(event) {
+                        event.stopPropagation();
+                    };
+                    row.onclick = function(event) {
+                        event.preventDefault();
+                        event.stopPropagation();
+                        select.selectedIndex++;
+                        if (select.selectedIndex < 0) select.selectedIndex++;
+                    };
+                }
+            }
+        </script>
+    </body>
+</html>
