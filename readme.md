@@ -5,7 +5,7 @@ This repository contains helpful/handy assets for use with [Manubot](https://man
 Some things that are included:
 
 - `/icons` - SVG icons for social media (eg Twitter), services (eg GitHub), and any other common brand identifiers.
-- `/testinmg` - Generic images, utilities, etc for testing manuscript themes, plugins, etc.
+- `/test` - Generic images, utilities, etc for testing manuscript themes, plugins, etc.
 - `/brand` - the Manubot logo and other assets related to the branding/marketing of Manubot
 
 Some things that may be included later:
