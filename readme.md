@@ -2,17 +2,14 @@
 
 This repository contains helpful/handy assets for use with [Manubot](https://manubot.org/ "Manubot"), a tool for writing scholarly manuscripts.
 
-Some things that are included:
+## Contents
 
+- `/brand` - the Manubot logo and other assets related to the core branding of Manubot
 - `/icons` - SVG icons for social media (eg Twitter), services (eg GitHub), and any other common brand identifiers.
+- `/promo` - images and other assets related to the marketing of Manubot
 - `/test` - Generic images, utilities, etc for testing manuscript themes, plugins, etc.
-- `/brand` - the Manubot logo and other assets related to the branding/marketing of Manubot
 
-Some things that may be included later:
-
-- `/docs` - Manuals, help documents, or other useful links/references.
-- `/citation-styles` - Extra citation styles for `manubot-rootstock`
-- `/fonts` - Manubot-approved or special purpose fonts.
+**Note**: This repository — unlike the other repositories under the [Manubot organization](https://github.com/manubot) — is an informal storage space for useful resources. It should not be assumed to be reliable or static, and thus should not be referenced as a place of record.
 
 ## License
 
