@@ -2,7 +2,8 @@
 
 This repository contains helpful/handy assets for use with [Manubot](https://manubot.org/ "Manubot"), a tool for writing scholarly manuscripts.
 
-**Note**: This repository — unlike the other repositories under the [Manubot organization](https://github.com/manubot) — is an informal storage space for useful Manubot-related resources. It should not be referenced as a place of record or assumed to be static/reliable.
+**Note**: This repository — unlike the other repositories under the [Manubot organization](https://github.com/manubot) — is an informal storage space for useful Manubot-related resources.
+It should not be referenced as a place of record or assumed to be static/reliable.
 
 ## Contents
 
