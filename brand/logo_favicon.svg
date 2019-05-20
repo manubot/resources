@@ -1,9 +1,93 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="16" height="16">
-    <path fill="none" stroke="#37474f" stroke-linecap="round" stroke-linejoin="round" stroke-width="56" d="M384 640V384l128 176 128-176v256"/>
-    <path fill="none" stroke="#37474f" stroke-linecap="round" stroke-width="56" d="M176 512h-32"/>
-    <circle cx="56" cy="512" r="32" fill="none" stroke="#37474f" stroke-width="40"/>
-    <path fill="none" stroke="#37474f" stroke-linecap="round" stroke-linejoin="round" stroke-width="56" d="M304 256L176 512l128 256"/>
-    <path fill="none" stroke="#37474f" stroke-linecap="round" stroke-width="56" d="M848 512h32"/>
-    <circle cx="968" cy="512" r="32" fill="none" stroke="#37474f" stroke-width="40"/>
-    <path fill="none" stroke="#37474f" stroke-linecap="round" stroke-linejoin="round" stroke-width="56" d="M720 256l128 256-128 256"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <rect
+    fill="#ad1457"
+    x="0"
+    y="0"
+    width="1024"
+    height="1024"
+    rx="96"
+    ry="96"
+  >
+  </rect>
+  <path
+    class="the_m"
+    fill="none"
+    stroke="#ffffff"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    stroke-width="56"
+    d="
+      M 384 640 
+      L 384 384
+      L 512 560
+      L 640 384
+      L 640 640
+    "
+  />
+  <path
+    class="bracket"
+    fill="none"
+    stroke="#ffffff"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    stroke-width="56"
+    d="
+      M 304 256
+      L 176 512 
+      L 304 768
+    "
+  />
+  <path
+    class="bracket"
+    fill="none"
+    stroke="#ffffff"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    stroke-width="56"
+    d="
+      M 720 768
+      L 848 512
+      L 720 256 
+    "
+  />
+  <path
+    class="line"
+    fill="none"
+    stroke="#ffffff"
+    stroke-linecap="round"
+    stroke-width="56"
+    d="
+      M 176 512
+      L 144 512
+    "
+  />
+  <path
+    class="line"
+    fill="none"
+    stroke="#ffffff"
+    stroke-linecap="round"
+    stroke-width="56"
+    d="
+      M 848 512
+      L 880 512
+    "
+  />
+  <circle
+    class="circle"
+    cx="56"
+    cy="512"
+    r="32"
+    fill="none"
+    stroke="#ffffff"
+    stroke-width="40"
+  />
+  <circle
+    class="circle"
+    cx="968"
+    cy="512"
+    r="32"
+    fill="none"
+    stroke="#ffffff"
+    stroke-width="40"
+  />
 </svg>
