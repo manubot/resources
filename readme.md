@@ -12,6 +12,10 @@ It should not be referenced as a place of record or assumed to be static/reliabl
 - `/promo` - images and other assets related to the marketing of Manubot
 - `/test` - Generic images, utilities, etc for testing manuscript themes, plugins, etc.
 
+## Brand Info
+
+Red color: #ad1457
+
 ## License
 
 All original work in this repository is dedicated to the public domain via the [CC0 1.0 Universal License](license.md).
