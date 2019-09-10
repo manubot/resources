@@ -2,18 +2,6 @@
 
 This directory contains assets of and related to the Manubot brand -- namely the logo in various formats.
 
-## Info
-
-Theme colors:  
-![theme colors](theme-colors.png)  
-#ad1457 (maroon)  
-#ffffff (white)
-
-Logo font:
-Quicksand (from Google Fonts)
-
-[Material design colors](https://www.materialpalette.com/colors) preferred for other color needs.
-
 ## Contents
 
 - `logo.svg` - Master reference for logo.
@@ -26,3 +14,15 @@ Quicksand (from Google Fonts)
 - `logo-silhouette.svg` - Monochrome version of logo. Used for \*`safari-pinned-tab.svg`.
 
 \* For generating the necessary favicons/icons/thumbnails/metadata for webpages, use [realfavicongenerator.net](https://realfavicongenerator.net/) and [metatags.io](https://metatags.io/).
+
+## Style Guidelines
+
+Theme colors:  
+![theme colors](theme-colors.png)  
+#ad1457 (maroon)  
+#ffffff (white)
+
+Logo font:
+Quicksand (from Google Fonts)
+
+[Material design colors](https://www.materialpalette.com/colors) preferred for other color needs.
