@@ -1,7 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 192 1024 640">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-500 -500 1000 1000">
+  <!-- animations -->
   <style>
-    .the_m {
-      animation: draw_m 1s ease forwards;
+    .letter {
+      animation: draw_letters 1s ease forwards;
     }
     .bracket {
       animation: draw_brackets 1s ease forwards;
@@ -12,37 +13,37 @@
     .circle {
       animation: draw_circles 1s ease forwards;
     }
-    @keyframes draw_m {
+    @keyframes draw_letters {
       from {
-        stroke-dasharray: 948;
-        stroke-dashoffset: 948;
+        stroke-dasharray: 923;
+        stroke-dashoffset: 923;
       }
       to {
-        stroke-dasharray: 948;
+        stroke-dasharray: 923;
         stroke-dashoffset: 0;
       }
     }
     @keyframes draw_brackets {
       from {
-        stroke-dasharray: 573;
-        stroke-dashoffset: 573;
+        stroke-dasharray: 564;
+        stroke-dashoffset: 564;
       }
       to {
-        stroke-dasharray: 573;
+        stroke-dasharray: 564;
         stroke-dashoffset: 0;
       }
     }
     @keyframes draw_lines {
       0% {
-        stroke-dasharray: 32;
-        stroke-dashoffset: 32;
+        stroke-dasharray: 40;
+        stroke-dashoffset: 40;
       }
       50% {
-        stroke-dasharray: 32;
-        stroke-dashoffset: 32;
+        stroke-dasharray: 40;
+        stroke-dashoffset: 40;
       }
       100% {
-        stroke-dasharray: 32;
+        stroke-dasharray: 40;
         stroke-dashoffset: 0;
       }
     }
@@ -54,89 +55,101 @@
         stroke-width: 0;
       }
       100% {
-        stroke-width: 32px;
+        stroke-width: 30px;
       }
     }
   </style>
-  <path
-    class="the_m"
-    fill="none"
-    stroke="#ffffff"
-    stroke-linecap="round"
-    stroke-linejoin="round"
-    stroke-width="48"
-    d="
-      M 384 640 
-      L 384 384
-      L 512 560
-      L 640 384
-      L 640 640
-    "
-  />
-  <path
-    class="bracket"
-    fill="none"
-    stroke="#ffffff"
-    stroke-linecap="round"
-    stroke-linejoin="round"
-    stroke-width="48"
-    d="
-      M 304 256
-      L 176 512 
-      L 304 768
-    "
-  />
-  <path
-    class="bracket"
-    fill="none"
-    stroke="#ffffff"
-    stroke-linecap="round"
-    stroke-linejoin="round"
-    stroke-width="48"
-    d="
-      M 720 768
-      L 848 512
-      L 720 256 
-    "
-  />
-  <path
-    class="line"
-    fill="none"
-    stroke="#ffffff"
-    stroke-linecap="round"
-    stroke-width="48"
-    d="
-      M 176 512
-      L 144 512
-    "
-  />
-  <path
-    class="line"
-    fill="none"
-    stroke="#ffffff"
-    stroke-linecap="round"
-    stroke-width="48"
-    d="
-      M 848 512
-      L 880 512
-    "
-  />
-  <circle
-    class="circle"
-    cx="56"
-    cy="512"
-    r="32"
-    fill="none"
-    stroke="#ffffff"
-    stroke-width="32"
-  />
-  <circle
-    class="circle"
-    cx="968"
-    cy="512"
-    r="32"
-    fill="none"
-    stroke="#ffffff"
-    stroke-width="32"
-  />
+  <!-- background -->
+  <rect fill="#ad1457" x="-500" y="-500" width="1000" height="1000" />
+  <!-- logo -->
+  <g transform="scale(0.9)">
+    <!-- M -->
+    <path
+      class="letter"
+      fill="none"
+      stroke="#ffffff"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="50"
+      d="
+        M -125 125 
+        L -125 -125
+        L 0 45
+        L 125 -125
+        L 125 125
+      "
+    />
+    <!-- left bracket -->
+    <path
+      class="bracket"
+      fill="none"
+      stroke="#ffffff"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="50"
+      d="
+        M -200 -250
+        L -330 0 
+        L -200 250
+      "
+    />
+    <!-- right bracket -->
+    <path
+      class="bracket"
+      fill="none"
+      stroke="#ffffff"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="50"
+      d="
+        M 200 250 
+        L 330 0
+        L 200 -250
+      "
+    />
+    <!-- left line -->
+    <path
+      class="line"
+      fill="none"
+      stroke="#ffffff"
+      stroke-linecap="round"
+      stroke-width="50"
+      d="
+        M -330 0
+        L -370 0
+      "
+    />
+    <!-- right line -->
+    <path
+      class="line"
+      fill="none"
+      stroke="#ffffff"
+      stroke-linecap="round"
+      stroke-width="50"
+      d="
+        M 330 0
+        L 370 0
+      "
+    />
+    <!-- left circle -->
+    <circle
+      class="circle"
+      cx="-455"
+      cy="0"
+      r="30"
+      fill="none"
+      stroke="#ffffff"
+      stroke-width="30"
+    />
+    <!-- right circle -->
+    <circle
+      class="circle"
+      cx="455"
+      cy="0"
+      r="30"
+      fill="none"
+      stroke="#ffffff"
+      stroke-width="30"
+    />
+  </g>
 </svg>
